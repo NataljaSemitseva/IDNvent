@@ -1,6 +1,7 @@
+
 *{
-    margin:0;
-           }
+	margin:0;
+		   }
 
 @font-face{
 font-family: Tele;
@@ -8,7 +9,11 @@ src: url(Teletactile.ttf);
 }
 body{
 background-image:url(air.png);
-font-family: Arial, Helvetica, sans-serif;
+font-family: "EB Garamond", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-style: normal;
 background-repeat:no-repeat;
 background-size:cover;
 background-attachment:fixed;
@@ -49,7 +54,7 @@ background-color: #F1F8FE;
 .logotype1 p {
     margin-left:22px;
     margin-top:15px;
-    max-resolution: 5px;
+    image-resolution: 5px;
     font-size: 15px;
 }
 .vallox245{
@@ -58,6 +63,7 @@ display: flex;
 font-size: 25px;
 justify-content: space-between;
 align-items: center;
+
 }
 .vallox245{
 margin: 2px;
@@ -66,7 +72,7 @@ align-items: center;
 
 }
 .vallox245 img {
-    
+    width:30;
     height: 300px;
 }
 .text h2{
@@ -76,39 +82,39 @@ text-align: center;
     padding: 15px;
     text-align: center;
     Line-height: 20px;
-        }
-        .razryv{
+	    }
+	    .razryv{
     height: 100px;
 }
 .text p{ 
-    padding: 10px;
-    
-   
-    Line-height: 30px;
-        }
-        .spezifikazija{
-            width:30;
-    height: 100px;
-   text-align: center;
-
+    padding: 20px;
+    Line-height: 45px;
+}
+    .textspez{
+        width:30;
+height: 100px;
+text-align: center;
        }
-        .textspez h2{
-             padding:15px;
+        .textspez h1{
+             
     text-align: center;
-    Line-height: 20px;
+    Line-height: 150px;
     margin-bottom: 50px;
-
-         
-         
+    padding: 20px;
+    font-weight: 900;
+    font-size: 40px;
+    
+ 
        }
    .grid div{
            
   padding: 8px 30px;
   background-color:#F1F8FE ;
   border: 2px solid rgb(24 84 133);
-      font-family: 'Russo One', sans-serif;
-    font-size: 17px;
-    color:rgb(65, 105, 225);
+    
+  font-weight: 900;
+  font-size: 17px;
+    color:DeepSkyBlue ;
     margin-right: 70px;
     margin-left: 70px;
 
@@ -116,29 +122,20 @@ text-align: center;
 
  .grid{
     display: grid;
-    grid-template-columns:minmax(100px, 500px) 1fr 1fr;
+    grid-template-columns:minmax(1100px, 500px) 1fr 1fr;
     grid-template-columns:repeat(2, 1fr);
-   
+
     grid-column-gap: 50px;
     grid-gap: 20px 40px;
 }
 footer{
     padding:1;
     background-color:#F1F8FE;
-    tletter-spacing:1px;
-    font-size:15px;
+    letter-spacing:2px;
+    font-size:20px;
     text-align: center;
     color:#1C84D0;
     -webkit-text-stroke: 1px #BDE1FF;
     text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
     font-weight: 700;
 }
-
-
-
-
-
-
-
-
-
